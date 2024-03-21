@@ -1,15 +1,20 @@
 Package: ojocensus
-Title: What the Package Does (One Line, Title Case)
+Title: A {tidycensus} Wrapper for Open Justice Oklahoma
 Version: 0.0.0.9000
 Authors@R: 
     person("Brancen", "Gregory", , "brancengregory@gmail.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Description:
+  This package wraps {tidycensus} with sensible default arguments and formatting to ease Open Justice Oklahoma analysts'
+  minimize repetition of tasks and increase standardization. In some cases it may go beyond to wrap {censusapi} calls directly
+  to implement functionality not handled by {tidycensus}.
 License: GPL (>= 3)
+URL: https://github.com/openjusticeok/ojocensus, https://openjusticeok.github.io/ojocensus/
+BugReports: https://github.com/openjusticeok/ojocensus/issues
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
+Config/testthat/edition: 3
+Imports: 
+    lifecycle
 Suggests: 
     testthat (>= 3.0.0)
-Config/testthat/edition: 3
-URL: https://github.com/openjusticeok/ojocensus, https://openjusticeok.github.io/ojocensus/
-BugReports: https://github.com/openjusticeok/ojocensus/issues
